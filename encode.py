@@ -11,7 +11,7 @@ from model import AutoEncoder
 from utils.reduce_face_information import trim_face_information
 
 # Input parameters
-epochs = 7000
+epochs = 9000
 lr = 0.001
 #device = 'cpu' # Change from 'cpu' to 'cuda' if you want to use GPU, see next commented line
 device = 'cuda'
